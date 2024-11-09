@@ -2,6 +2,8 @@
 
 Prime Filmes é uma plataforma de streaming que oferece uma experiência personalizada de filmes. Com categorias diversificadas e funcionalidades exclusivas, o site permite aos usuários explorar, pesquisar e gerenciar sua lista de filmes favoritos com facilidade.
 
+Link: https://cp3-prime-filmes-final01.vercel.app/
+
 ## Funcionalidades
 
 - **Home**: 
