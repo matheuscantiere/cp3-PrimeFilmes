@@ -56,7 +56,7 @@ export default function Header() {
                 }`
               }
             >
-              Lista de Filmes
+              Pesquisar
             </NavLink>
           </li>
           <li>
