@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active{
+  border-bottom: 2px solid white;
+}
+
+body {
+  background-color: #121212;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  color: #fff;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+input::placeholder {
+  color: #999;
+}
+
+input {
+  outline: none;
+}
+
+.grid {
+  margin-top: 20px;
+}
+
+p {
+  color: #bbb;
+}
+
+button {
+  transition: all 0.2s ease;
+}
+
+.flex {
+  scrollbar-width: thin;  /* Ajusta a largura da barra de rolagem */
+  scrollbar-color: #6b7280 #1f2937;  /* Cor personalizada da barra de rolagem */
+}
+
+.flex::-webkit-scrollbar {
+  height: 10px;
+}
+
+.flex::-webkit-scrollbar-thumb {
+  background-color: #6b7280;
+  border-radius: 5px;
+}
+
+.flex::-webkit-scrollbar-track {
+  background-color: #1f2937;
+}
+
+
+button {
+  display: inline-block;
+  background-color: #4CAF50; /* Verde para visibilidade */
+  color: white; /* Texto branco */
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
