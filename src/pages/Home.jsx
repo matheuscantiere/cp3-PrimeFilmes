@@ -1,5 +1,5 @@
 import { useEffect, useState, useRef } from "react";
-import { addToWatchLater, addToWatched, getRecommendedMovies, getWatchedMovies, getWatchLaterMovies } from "../utils/localStorage.js";
+import { addToWatchLater, addToWatched, getRecommendedMovies, getWatchedMovies, getWatchLaterMovies } from "../Utils/localStorage.js";
 import MovieCard2 from "../components/MovieCard2";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
